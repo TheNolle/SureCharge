@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget_history_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/widget_background">
+
+    <TextView
+            android:id="@+id/widget_history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_history"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_history_sparkline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bars"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_history_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avg_end_82"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/white" />
+</LinearLayout>

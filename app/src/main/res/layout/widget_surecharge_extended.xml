@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/widget_background">
+
+    <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surecharge"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_battery_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_75"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_next_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_at_80_high"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_active_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_balanced_daily"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low_20_high_80"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="8dp">
+
+        <TextView
+                android:id="@+id/widget_quick_action_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/snooze"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent" />
+
+        <TextView
+                android:id="@+id/widget_quick_action_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/_switch"
+                android:textSize="12sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>

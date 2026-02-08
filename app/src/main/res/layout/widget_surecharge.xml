@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/widget_background">
+
+    <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surecharge"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@android:color/white" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+        <TextView
+                android:id="@+id/widget_battery_percent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_75"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+        <TextView
+                android:id="@+id/widget_quick_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/snooze"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/widget_next_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_at_80_high"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low_20_high_80"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white" />
+</LinearLayout>

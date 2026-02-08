@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SureCharge</string>
+    <string name="surecharge">SureCharge</string>
+
+    <string name="_85">85%</string>
+    <string name="low_15_high_80">Low: 15% · High: 80%</string>
+    <string name="snooze">Snooze</string>
+    <string name="alert_at_80_high">Alert at 80% (high)</string>
+    <string name="low_20_high_80">Low 20% · High 80%</string>
+    <string name="_75">75%</string>
+    <string name="profile_balanced_daily">Profile: Balanced daily</string>
+    <string name="_switch">Switch</string>
+
+    <!-- Status widget config -->
+    <string name="widget_style">Widget style</string>
+    <string name="compact">Compact</string>
+    <string name="standard">Standard</string>
+    <string name="extended">Extended</string>
+    <string name="display_options">Display options</string>
+    <string name="show_next_alert_target">Show next alert target</string>
+    <string name="show_active_profile_schedule">Show active profile / schedule</string>
+    <string name="quick_action_standard_widget">Quick action (Standard widget)</string>
+    <string name="none">None</string>
+    <string name="snooze_1_hour">Snooze 1 hour</string>
+    <string name="open_app">Open app</string>
+    <string name="add_widget">Add widget</string>
+
+    <!-- Profile widget -->
+    <string name="profile">Profile</string>
+    <string name="balanced_daily">Balanced daily</string>
+    <string name="tap_next_to_switch">Tap Next to switch</string>
+    <string name="next">Next</string>
+    <string name="open">Open</string>
+    <string name="show_hint_subtitle_on_large_widget">Show hint subtitle on large widget</string>
+    <string name="add_profile_widget">Add profile widget</string>
+    <string name="options">Options</string>
+    <string name="large_title_buttons">Large (title + buttons)</string>
+    <string name="small_compact_chip">Small (compact chip)</string>
+    <string name="profile_widget_style">Profile widget style</string>
+
+    <!-- History widget -->
+    <string name="battery_history">Battery history</string>
+    <string name="bars">▂▅▇█</string>
+    <string name="avg_end_82">Avg end: 82%</string>
+    <string name="bars2">▁▂▃▄▅▆▇█</string>
+    <string name="avg_start_28_end_81">Avg start 28% · end 81%</string>
+    <string name="last_14_days">Last 14 days</string>
+    <string name="add_history_widget">Add history widget</string>
+    <string name="last_30_days">Last 30 days</string>
+    <string name="last_7_days">Last 7 days</string>
+    <string name="time_window">Time window</string>
+    <string name="large_sparkline_stats">Large (sparkline + stats)</string>
+    <string name="compact_sparkline_one_line">Compact (sparkline + one line)</string>
+    <string name="history_widget_style">History widget style</string>
+</resources>

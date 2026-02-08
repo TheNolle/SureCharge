@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest an improvement or new idea
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed solution
+      description: What would you like SureCharge to do?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternatives considered
+      description: Other ways to solve this, or why they don’t work.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ⚠ Requests that promise impossible battery control
+        (e.g. hardware charge limiting) will be rejected.

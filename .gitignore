@@ -1,0 +1,68 @@
+# Gradle
+.gradle
+build
+!gradlewrappergradle-wrapper.jar
+
+# Local configuration
+local.properties
+.keystore
+.jks
+.pem
+
+# IntelliJ  Android Studio
+.iml
+.idea
+.ideaworkspace.xml
+.ideatasks.xml
+.ideausage.statistics.xml
+.ideadictionaries
+.ideashelf
+.ideagradle.xml
+.idealibraries
+.ideacaches
+.ideaassetWizardSettings.xml
+.ideadeploymentTargetDropDown.xml
+.ideaandroidTestResultsUserPreferences.xml
+.ideaother.xml
+
+# Android
+captures
+.externalNativeBuild
+.cxx
+outputs
+navigation.json
+
+# Signing  secrets
+signing.properties
+keystore.properties
+.p12
+
+# Logs
+.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Kotlin  Java
+.class
+
+# Generated
+generated
+appgenerated
+build-cache
+
+# NDK
+obj
+.o
+
+# Lint
+lintintermediates
+lintgenerated
+lintoutputs
+linttmp
+
+# Misc
+.swp
+.swo
+.tmp

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/history_widget_style"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        <RadioGroup
+                android:id="@+id/radio_group_history_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+
+            <RadioButton
+                    android:id="@+id/radio_history_style_compact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/compact_sparkline_one_line" />
+
+            <RadioButton
+                    android:id="@+id/radio_history_style_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/large_sparkline_stats" />
+        </RadioGroup>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_window"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+        <RadioGroup
+                android:id="@+id/radio_group_history_window"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+
+            <RadioButton
+                    android:id="@+id/radio_history_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_7_days" />
+
+            <RadioButton
+                    android:id="@+id/radio_history_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_14_days" />
+
+            <RadioButton
+                    android:id="@+id/radio_history_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_30_days" />
+        </RadioGroup>
+
+        <Button
+                android:id="@+id/button_history_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_history_widget"
+                android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

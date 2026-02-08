@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget_history_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/widget_background">
+
+    <TextView
+            android:id="@+id/widget_history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_history"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_history_sparkline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bars2"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_history_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avg_start_28_end_81"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white" />
+
+    <TextView
+            android:id="@+id/widget_history_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_14_days"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/white" />
+</LinearLayout>

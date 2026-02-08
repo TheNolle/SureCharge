@@ -1,0 +1,35 @@
+## What does this change do?
+
+Explain clearly what changed.
+
+---
+
+## Why is this change needed?
+
+Link the issue if applicable, or explain the motivation.
+
+---
+
+## User-visible changes
+
+- [ ] None
+- [ ] Yes (describe below)
+  
+  If yes, explain what users will notice.
+
+---
+
+## Testing done
+
+- [ ] App launches
+- [ ] Battery alerts still fire
+- [ ] Widgets still update
+- [ ] Tested on a real device
+
+Device / Android version tested (if any):
+
+---
+
+## Notes for review
+
+Anything risky, controversial, or worth pointing out.
